@@ -262,7 +262,8 @@ address {
     text-decoration: none;
     display: block;
 }
-.progect-link:hover {
+.progect-link:hover,
+.progect-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -627,12 +628,12 @@ address {
 /* social */
 .tageline-social {
     font-size: 14px;
+    font-weight: 700;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--hover-txt-btn);
 
-    margin-top: 0;
+   
     margin-bottom: 20px;
 }
 .container-bottom {
